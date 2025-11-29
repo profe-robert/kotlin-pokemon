@@ -73,6 +73,26 @@ Dispositivo físico o emulador Android con API 29 o superior.
         ...
 ```
 
+### 🔧 build.gradle
+```code
+// ViewModel para Compose
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
+
+// Retrofit
+implementation("com.squareup.retrofit2:retrofit:2.11.0")
+implementation("com.squareup.retrofit2:converter-moshi:2.11.0")
+
+// Moshi
+implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
+
+// Coroutines
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+
+// Manejo de imágenes remotas
+implementation("io.coil-kt:coil-compose:2.6.0")
+```
+
 ### 🔧 libs.versions.toml
 ```code
 [versions]
