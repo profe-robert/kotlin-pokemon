@@ -1,0 +1,115 @@
+# -------------------------------
+# Android / Gradle
+# -------------------------------
+
+*.iml
+.gradle/
+local.properties
+.gradle/
+build/
+captures/
+outputs/
+dependencyUpdates/
+reports/
+
+# Ignore all top-level build folders
+*/build/
+
+# -------------------------------
+# Android Studio / IntelliJ
+# -------------------------------
+.idea/
+*.ipr
+*.iws
+*.ids
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# JetBrains additional
+*.jpb
+*.jps
+*.class
+
+# -------------------------------
+# Kotlin / Compose Compiler
+# -------------------------------
+compose-multiplatform/
+*.kotlin_module
+.cache/
+kotlinc/
+buildSrc/.gradle/
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Log files
+# -------------------------------
+*.log
+
+# -------------------------------
+# Gradle Wrapper
+# -------------------------------
+gradle-app.setting
+!gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# -------------------------------
+# Signing keys (MUY IMPORTANTE)
+# -------------------------------
+*.jks
+*.keystore
+*.keystore.*
+*.jks.*
+keystore.properties
+
+# -------------------------------
+# APK / Bundles
+# -------------------------------
+*.apk
+*.ap_
+*.aab
+
+# -------------------------------
+# Navigation / Generated files
+# -------------------------------
+.navigation/
+generated/
+build/generated/
+
+# -------------------------------
+# Emulators / AVD
+# -------------------------------
+*.avd/
+*.avd/*.ini
+*.avd/*.sav
+*.avd/*.lock
+
+# -------------------------------
+# Jetpack Compose Preview
+# -------------------------------
+*.preview/
+
+# -------------------------------
+# Firebase / Google Services
+# -------------------------------
+google-services.json
+google-services.plist
+
+# -------------------------------
+# Misc
+# -------------------------------
+*.tmp
+*.swp
+*.swo
+*.bak
